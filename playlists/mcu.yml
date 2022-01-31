@@ -1,7 +1,7 @@
 playlists:
-  Marvel Cinematic Universe:
-    sync_to_users: all
+  Marvel Cinematic Universe - Chronilogical:
+    sync_to_users: khaosx
     sync_mode: sync
     libraries: Movies
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
-    summary: Marvel Cinematic Universe In Order
+    summary: Marvel Cinematic Universe In ChropnologicalOrder
