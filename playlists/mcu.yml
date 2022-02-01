@@ -1,6 +1,6 @@
 playlists:
   Marvel Cinematic Universe - Chronilogical:
-    sync_to_users: khaosx
+    sync_to_users: "Kris Newman"
     sync_mode: sync
     libraries: Movies
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
