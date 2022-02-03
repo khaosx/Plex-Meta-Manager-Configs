@@ -6,9 +6,9 @@ playlists:
     plex_search:
       all:
         title.is: Archer (2009)
-        episode_unplayed: false
-        release.not: 14
-        episode_last_played.not: 21
+        #episode_unplayed: false
+        #release.not: 14
+        #episode_last_played.not: 21
         episode_year.not:
           - 2016
           - 2017
