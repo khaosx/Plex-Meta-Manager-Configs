@@ -1,7 +1,8 @@
 playlists:
   Late Night Archer:
     sync_to_users: "Kris Newman"
-    sync_mode: TV
+    sync_mode: sync
+    libraries: TV
     plex_search:
       all:
         title.is: Archer (2009)
