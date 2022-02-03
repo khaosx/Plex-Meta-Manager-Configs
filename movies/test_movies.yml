@@ -1,15 +1,4 @@
-templates:
-  Actor:
-    actor: tmdb
-    tmdb_person: <<person>>
-    tmdb_actor_details: <<person>>
-    sort_title: +_<<collection_name>>
-    sync_mode: sync
-    collection_order: release
-    collection_mode: hide
 collections:
-  Bill Murray:
-    template: {name:  Actor, person: 1532}
   Best of the 1980s:
     tmdb_discover:
       primary_release_date.gte: 01/01/1980
@@ -18,6 +7,3 @@ collections:
       sort_by: popularity.desc
       limit: 100
     summary: A collection of the Top Content of the 1980s
-  Vulture’s 101 Best Movie Endings:
-    letterboxd_list: https://letterboxd.com/brianformo/list/vultures-101-best-movie-endings
-    
