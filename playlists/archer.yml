@@ -7,4 +7,9 @@ playlists:
       all:
         title.is: Archer (2009)
         episode_unplayed: false
+        release.not: 14
+        last_played.not: 21
+      any:
+        release.after: 01/01/2019
+        release.before: 01/01/2016
     sort_by:  release.asc
