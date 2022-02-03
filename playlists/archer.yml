@@ -1,0 +1,8 @@
+Archer:
+    libraries: TV
+    summary:  My favorite Archer episodes
+    plex_search:
+      all:
+        title.is: Archer (2009)
+        unplayed: true
+    sort_by:  release.asc
