@@ -1,8 +1,9 @@
-Archer:
-    libraries: TV
-    summary:  My favorite Archer episodes
+playlists:
+  Late Night Archer:
+    sync_to_users: "Kris Newman"
+    sync_mode: TV
     plex_search:
       all:
         title.is: Archer (2009)
-        unplayed: true
+        unplayed: false
     sort_by:  release.asc
