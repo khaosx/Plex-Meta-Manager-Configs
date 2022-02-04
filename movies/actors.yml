@@ -1,0 +1,18 @@
+######################################################
+#               People Collections                   #
+######################################################
+templates:
+  Person:
+    smart_filter:
+      any:
+        actor: tmdb
+        director: tmdb
+        writer: tmdb
+        producer: tmdb
+      sort_by: random
+      validate: false
+    tmdb_person: <<person>>
+    sort_title: +4_<<collection_name>>
+collections:
+  Arnold Schwarzenegger:
+    template: {name: Person, person: 1100}
