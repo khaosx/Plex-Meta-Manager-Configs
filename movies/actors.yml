@@ -11,3 +11,5 @@ templates:
 collections:
   Arnold Schwarzenegger:
     template: {name: Actor, person: 1100}
+  Mads Mikkelsen:
+    template: {name: Actor, person: 1019}
