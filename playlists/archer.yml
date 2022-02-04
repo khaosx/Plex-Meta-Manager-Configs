@@ -10,7 +10,6 @@ playlists:
         release.not: 14
         episode_last_played.not: 21
         any:
-          all:
-            - episode_air_date.before: 01/01/2016
-            - episode_air_date.after: 01/01/2019
+          - episode_air_date.before: 01/01/2016
+            episode_air_date.after: 01/01/2019
     sort_by:  release.asc
