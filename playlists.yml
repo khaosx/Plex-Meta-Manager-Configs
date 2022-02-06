@@ -11,7 +11,7 @@ playlists:
         episode_unplayed: false
         #episode_last_played.not: 21    # this field only accepts days so weeks cannot be added directly
         any:
-          - episode_air_date.after: 01/01/2019.    # Because I personally didn't enjoy the Coma Seasons
+          - episode_air_date.after: 01/01/2019     # Because I personally didn't enjoy the Coma Seasons
             episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
   Marvel Cinematic Universe - Chronological:
     sync_mode: sync
