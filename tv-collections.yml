@@ -17,7 +17,7 @@ collections:
 
 #                Chart Collections                   #
 
-Popular on Copper:
+  Popular on Copper:
     template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
