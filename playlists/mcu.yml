@@ -1,7 +1,0 @@
-playlists:
-  Marvel Cinematic Universe - Chronological:
-    sync_to_users: "Kris Newman"
-    sync_mode: sync
-    libraries: Movies
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
-    summary: Marvel Cinematic Universe In chronological order
