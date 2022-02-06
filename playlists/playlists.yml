@@ -1,0 +1,15 @@
+playlists:
+  Late Night Archer:
+    sync_mode: sync
+    libraries: TV
+    plex_search:
+      sort_by:  release.asc
+      type: episodes
+      all:
+        title.is: Archer (2009)
+        episode_air_date.not: 14       # this field only accepts days so weeks cannot be added directly
+        episode_unplayed: false
+        #episode_last_played.not: 21    # this field only accepts days so weeks cannot be added directly
+        any:
+          - episode_air_date.after: 01/01/2019.    # Because I personally didn't enjoy the Coma Seasons
+            episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
