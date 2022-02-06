@@ -1,11 +1,23 @@
+######################################################
+#                   TV Collections                   #
+######################################################
 templates:
+  Actor:
+    actor: tmdb
+    tmdb_person: <<person>>
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+    collection_order: release
   Chart:
     sort_title: +1_<<num>><<collection_name>>
     sync_mode: sync
     collection_order: custom
     item_refresh: true
 collections:
-  Popular on Copper:
+
+#                Chart Collections                   #
+
+Popular on Copper:
     template: { name: Chart, num: 1 }
     tautulli_popular:
       list_days: 30
