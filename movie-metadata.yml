@@ -1,7 +1,11 @@
+######################################################
+#                  Movie MetaData                    #
+######################################################
 library:
   Movies:
     operations:
       genre_collections:
+        test: true
         title_format: "Top <<genre>> <<library_type>>s"
         template:
           smart_filter:
