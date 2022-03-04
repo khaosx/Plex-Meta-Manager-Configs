@@ -28,3 +28,10 @@ collections:
     template: { name: Chart, num: 2 }
     tmdb_popular: 40
     summary: Popular Shows across the internet
+
+  Top Rated Mini-Series:
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=mini_series&sort=num_votes,desc
+      limit: 50
+    collection_order: custom
+    sync_mode: sync
