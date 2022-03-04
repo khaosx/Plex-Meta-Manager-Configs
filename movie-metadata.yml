@@ -1,15 +1,4 @@
 ######################################################
 #                  Movie MetaData                    #
 ######################################################
-library:
-  Movies:
-    operations:
-      genre_collections:
-        test: true
-        title_format: "Top <<genre>> <<library_type>>s"
-        template:
-          smart_filter:
-            limit: 50
-            sort_by: critic_rating.desc
-            all:
-              genre: <<genre>>
+
