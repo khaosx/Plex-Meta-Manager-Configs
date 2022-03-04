@@ -35,3 +35,12 @@ collections:
       limit: 50
     collection_order: custom
     sync_mode: sync
+
+  The Simpsons Top 100 Episodes:
+    collection_order: custom
+    collection_level: episode
+    sync_mode: sync
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+      limit: 100
+    summary: The top 100 Simpsons episodes by IMDB user rating
