@@ -19,6 +19,24 @@ collections:
 
 #                List Collections                   #
 
+  Best of the pre-1970s:
+      tmdb_discover:
+        primary_release_date.gte: 01/01/1910
+        primary_release_date.lte: 12/31/1969
+        with_original_language: en
+        sort_by: popularity.desc
+        limit: 100
+      summary: A collection of the 100 most popular movies pre-1970s
+
+  Best of the 1970s:
+      tmdb_discover:
+        primary_release_date.gte: 01/01/1980
+        primary_release_date.lte: 12/31/1989
+        with_original_language: en
+        sort_by: popularity.desc
+        limit: 100
+      summary: A collection of the 100 most popular movies of the 1980s
+
   Best of the 1980s:
       tmdb_discover:
         primary_release_date.gte: 01/01/1980
@@ -27,3 +45,21 @@ collections:
         sort_by: popularity.desc
         limit: 100
       summary: A collection of the 100 most popular movies of the 1980s
+
+  Best of the 1990s:
+      tmdb_discover:
+        primary_release_date.gte: 01/01/1990
+        primary_release_date.lte: 12/31/1999
+        with_original_language: en
+        sort_by: popularity.desc
+        limit: 100
+      summary: A collection of the 100 most popular movies of the 1990s
+
+  Best of the 2000s:
+      tmdb_discover:
+        primary_release_date.gte: 01/01/2000
+        primary_release_date.lte: 12/31/2009
+        with_original_language: en
+        sort_by: popularity.desc
+        limit: 100
+      summary: A collection of the 100 most popular movies of the 2000s
