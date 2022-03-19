@@ -13,8 +13,12 @@ playlists:
         any:
           - episode_air_date.after: 01/01/2019     # Because I personally didn't enjoy the Coma Seasons
             episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
-  Marvel Cinematic Universe - Chronological:
+
+Marvel Cinematic Universe - Chronological:
     sync_mode: sync
     libraries: Movies,TV
+    playlist_sync_to_users: 
+      - Kris Newman
+      - jackienewman
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
     summary: Marvel Cinematic Universe In chronological order
