@@ -1,1 +1,60 @@
-# Placeholder
+######################################################
+#                     TV Metadata                    #
+######################################################
+metadata:
+  Firefly:
+    episode_ordering: tvdb_dvd
+    delete_episodes: never
+    keep_episodes: all
+    url_poster: https://theposterdb.com/api/assets/17445
+    seasons:
+      0:
+        title: "Specials"
+        url_poster: https://theposterdb.com/api/assets/118703
+        summary: >-
+              Additional media which further explores the universe of Joss Whedon's "Firefly".
+        episodes:
+          2:
+            title: "Done The Impossible"
+            summary: >-
+                  "Done the Impossible" is a documentary fan film of the TV series "Firefly". Its main focus is on 
+                  the fans themselves, and how they came to love the show and, ultimately, played a part in getting 
+                  the film "Serenity" made. 
+          5:
+            title: "Serenity: The 10th Character"
+            summary: >-
+                  A documentary about the spaceship Serenity from Firefly.
+          6:
+            title: "Joss Tours the Set"
+            summary: >-
+                  A quick tour of the spaceship Serenity from Firefly with the series creator.
+          7:
+            title: "Adam Baldwin Sings Hero of Canton"
+            summary: >-
+                  ...while wearing a very cunning chapeau.
+          8:
+            title: "Alan Tudyk - Audition"
+            summary: >-
+                  Alan Tudyk's Audition
+          9:
+            title: "Season One Gag Reel"
+            summary: >-
+                  Bloopers and outtakes from Firefly.
+          10:
+            title: "Joss Sings the Firefly Theme"
+            summary: >-
+                  Joss sings the theme from Firefly...no hat.
+          11:
+            title: "Firefly Reunion"
+            summary: >-
+                  Lunch with Joss, Nathan, Alan, and Ron.
+          12:
+            title: "Serenity: The 10th Character"
+            summary: >-
+                  A documentary about the spaceship Serenity from Firefly.               
+      1:
+        url_poster: https://theposterdb.com/api/assets/118704
+        summary: >-
+              Set 500 years in the future after a universal civil war, the crew of a small transport spaceship
+              takes any job so long as it puts food on the table. The disparate men and women just want to survive
+              and maybe have better lives, but they face constant challenges on the new frontier.
