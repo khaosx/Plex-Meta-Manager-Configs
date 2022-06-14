@@ -1,5 +1,5 @@
 ######################################################
-#              4k - Movies -  Collections            #
+#              PMM Config - 4k Movies                #
 ######################################################
 
 templates:
@@ -18,9 +18,7 @@ templates:
 
 collections:
 
-######################################################
-#               Universe Collections                 #
-######################################################
+# Universes
 
   The Marvel Cinematic Universe:
     imdb_list: https://www.imdb.com/list/ls066946827/
