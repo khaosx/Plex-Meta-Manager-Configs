@@ -1,3 +1,48 @@
 ######################################################
 #              PMM Config - Episodes                 #
 ######################################################
+
+templates:
+  Actor:
+    actor: tmdb
+    tmdb_person: <<person>>
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+  Chart:
+    sort_title: +1_<<num>><<collection_name>>
+    sync_mode: sync
+    collection_order: custom
+    item_refresh: true
+collections:
+
+# Chart Collections
+
+  Popular on Copper:
+    template: { name: Chart, num: 1 }
+    tautulli_popular:
+      list_days: 30
+      list_size: 20
+      list_buffer: 20
+    summary: The 20 most watched shows on Copper
+
+  Trending TV:
+    template: { name: Chart, num: 2 }
+    tmdb_popular: 40
+    summary: Popular Shows across the internet
+
+  Top Rated Mini-Series:
+    imdb_list:
+      url: https://www.imdb.com/search/title/?title_type=mini_series&sort=num_votes,desc
+      limit: 50
+    collection_order: custom
+    sync_mode: sync
+
+  The Simpsons Top 25 Episodes:
+    collection_order: custom
+    collection_level: episode
+    sync_mode: sync
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+      limit: 25
+    summary: The top 100 Simpsons episodes by IMDB user rating
