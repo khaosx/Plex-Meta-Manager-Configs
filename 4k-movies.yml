@@ -59,6 +59,7 @@ collections:
   James Bond:
     tmdb_collection: https://www.themoviedb.org/collection/645
     summary: A collection of all the James Bond movies.
+    primary_release_date.gte: 11/17/2006
     sort_title: '+007'
     url_poster: https://plexcollectionposters.com/images/2022/02/17/James-Bond-Collection8a30642239ed9f9a.jpg
     collection_order: release
