@@ -86,6 +86,13 @@ collections:
     collection_order: release
     collection_mode: default
 
+  Jurassic Park:
+    tmdb_collection: https://www.themoviedb.org/collection/328-jurassic-park-collection
+    tmdb_summary: https://www.themoviedb.org/collection/328-jurassic-park-collection
+    sort_title: '+008'
+    collection_order: release
+    collection_mode: default
+
   Middle Earth:
     tmdb_collection: 
       - 119
