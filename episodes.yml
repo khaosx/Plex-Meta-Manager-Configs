@@ -104,3 +104,53 @@ metadata:
               Set 500 years in the future after a universal civil war, the crew of a small transport spaceship
               takes any job so long as it puts food on the table. The disparate men and women just want to survive
               and maybe have better lives, but they face constant challenges on the new frontier.
+  Long Way Down:
+    episode_ordering: tvdb_dvd
+    delete_episodes: never
+    keep_episodes: all
+    url_poster: https://artworks.thetvdb.com/banners/posters/80731-1.jpg
+    seasons:
+      1:
+        summary: >-
+              Three years after circumnavigating the globe together, Ewan McGregor and Charley Boorman undertake another overland motorcycle adventure, this time from John O'Groats to South Africa.
+        episodes:
+          1:
+            title: "Gentlemen, Start Your Engines"
+            summary: >-
+                  Actor-adventurers Ewan McGregor and Charley Boorman motorcycle from Scotland to South Africa in this 10-part series. Part 1 covers the six months' worth of planning for the 15,000-mile, 85-day journey. Contingencies considered range from the bad roads to visa hassles and political unrest. (Sudan is on the route.) Then Ewan is hurt and Charley's wife gets sick, and Charley faces a police interrogation---at London's Gatwick Airport---en route to the departure point, John o' Groat's, Scotland.
+          2:
+            title: "John O'Groats, Scotland to Siena, Italy"
+            summary: >-
+                  After leaving John o' Groats, Scotland, Ewan and Charley make an emotional pit stop at a charity event before biking through England and France. When they reach Italy, crew members feel rushed to make the ferry to Africa.
+          3:
+            title: "Rome, Italy to Tobruk, Libya"
+            summary: >-
+                  With the ferry deadline approaching, Ewan and Charley ride down the Italian boot, passing through Siena and Rome before arriving in Sicily in time to catch the ferry to Africa. Once in Tunisia, they notice a change in climate. Then it's on to Libya, where the weather becomes a problem.
+          4:
+            title: "Tobruk, Libya to Khartoum, Sudan"
+            summary: >-
+                  Leaving Libya, the guys arrive in Egypt and after mishaps in Cairo, put their bikes on a ferry heading down the Nile while they fly to Kenya to learn about a motorcycle organization that transports doctors to patients. Back in Egypt, they board a ferry to Sudan, where they find that the terrain leads to new problems.
+          5:
+            title: "Sudan to Ethiopia"
+            summary: >-
+                  Thirty-one days into their trip, Charley and Ewan encounter roadblocks trying to enter Ethiopia. And once in the country they see some of the devastation brought on by recent conflict. Meanwhile, the rough terrain and long hours on their bikes make for a difficult ride.
+          6:
+            title: "Into Kenya"
+            summary: >-
+                  In Ethiopia, bike problems force Ewan and Charley to make camp in dangerous territory. Then, while making their way to Kenya, they visit areas of past devastation, see some wildlife and spend time with locals.
+          7:
+            title: "Kenya to Rwanda"
+            summary: >-
+                  In Kenya, Ewan and Charley have trouble crossing a muddy riverbed. In Uganda, they visit a UNICEF facility for children who had been abducted and forced into armies. Later, they move on to Rwanda.
+          8:
+            title: "Kigali to Malawi"
+            summary: >-
+                  In Rwanda, Ewan and Charley get firsthand accounts of the 1994 genocide. They also meet the country's president, Paul Kagame. Then they cross into Tanzania and gain a biker---Ewan's wife, Eve Mavrakis---before traveling on to Malawi.
+          9:
+            title: "Malawi to Botswana"
+            summary: >-
+                  In Malawi, Ewan and Charley learn about village life by visiting shops and meeting villagers. They also fix up their bikes, and Ewan says good-bye to Eve as they head to Botswana.
+          10:
+            title: "Botswana to Cape Town"
+            summary: >-
+                  Conclusion. The last leg of the trip begins as Charley and Ewan see extraordinary animals up close during a safari in Botswana. Later, it doesn't take the guys long to run into trouble before they enter South Africa.
