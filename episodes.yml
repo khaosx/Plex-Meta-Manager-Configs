@@ -104,7 +104,9 @@ metadata:
               Set 500 years in the future after a universal civil war, the crew of a small transport spaceship
               takes any job so long as it puts food on the table. The disparate men and women just want to survive
               and maybe have better lives, but they face constant challenges on the new frontier.
-  Long Way Down:
+  Long Way Down Special Edition:
+    alt_title: Long Way Down
+    year: 2007
     episode_ordering: tvdb_dvd
     delete_episodes: never
     keep_episodes: all
