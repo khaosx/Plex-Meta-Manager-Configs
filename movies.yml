@@ -23,7 +23,8 @@ collections:
     template: {name: Actor, actor: 4165}
   (Actor) Robert Pattinson:
     template: {name: Actor, actor: 11288}
-
+  (Actor) Nic Cage:
+    template: {name: Actor, actor: 2963}
 
 # Directors Collections
 
