@@ -3,30 +3,18 @@
 ######################################################
 
 templates:
-#  Actor:
-#    actor: tmdb
-#    tmdb_person: <<actor>>
-#    sort_title: +_<<collection_name>>
-#    sync_mode: sync
-#    collection_order: release
-#  Director:
-#    director: tmdb
-#    tmdb_person: <<director>>
-#    sort_title: +_<<collection_name>>
-#    sync_mode: sync
-#    collection_order: release
-
-  Person:
-    smart_filter:
-      any:
-        actor: tmdb
-        director: tmdb
-        writer: tmdb
-        producer: tmdb
-      sort_by: random
-      validate: false
-    tmdb_person: <<person>>
-    sort_title: +4_<<collection_name>>
+  Actor:
+    actor: tmdb
+    tmdb_person: <<actor>>
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+    collection_order: release
+  Director:
+    director: tmdb
+    tmdb_person: <<director>>
+    sort_title: +_<<collection_name>>
+    sync_mode: sync
+    collection_order: release
 
 collections:
 
@@ -35,10 +23,9 @@ collections:
     template: {name: Actor, actor: 4165}
   (Actor) Robert Pattinson:
     template: {name: Actor, actor: 11288}
-#  (Actor) Nic Cage:
-#    template: {name: Actor, actor: 2963}
-  Nicolas Cage:
-    template: {name: Person, person: 2963}
+  (Actor) Nic Cage:
+    template: {name: Actor, actor: 2963}
+
 # Directors Collections
 
 #  (Dir) Christopher Nolan:
