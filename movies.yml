@@ -8,7 +8,7 @@ templates:
       - collection
       - movie
     tmdb_collection_details: <<collection>>
-    sort_title: +_<<collection_name>>
+    sort_title: 0100_<<collection_name>>
     tmdb_movie: <<movie>>
     url_poster: <<poster>>
     sync_mode: sync
@@ -16,13 +16,13 @@ templates:
   Actor:
     actor: tmdb
     tmdb_person: <<actor>>
-    sort_title: ++_<<collection_name>>
+    sort_title: 0200_<<collection_name>>
     sync_mode: sync
     collection_order: release
   Director:
     director: tmdb
     tmdb_person: <<director>>
-    sort_title: +++_<<collection_name>>
+    sort_title: 0300_<<collection_name>>
     sync_mode: sync
     collection_order: release
 
@@ -151,8 +151,6 @@ collections:
     template: {name: Collection, collection: 432, poster: https://theposterdb.com/api/assets/179534}
   The Dark Knight:
     template: {name: Collection, collection: 263, poster: https://theposterdb.com/api/assets/8489}
-  DC Super Hero Girls:
-    template: {name: Collection, collection: "477208, 557495", poster: https://theposterdb.com/api/assets/33060}
   Deadpool:
     template: {name: Collection, collection: 448150, movie: 567604, poster: https://theposterdb.com/api/assets/6464}
   Die Hard:
@@ -518,26 +516,26 @@ collections:
     template: {name: Collection, collection: 537982, poster: https://theposterdb.com/api/assets/13753}
   Zoolander:
     template: {name: Collection, collection: 352789, poster: https://theposterdb.com/api/assets/51995}
-
-# List collections
- 
+  Doctor Strange:
+    template: {name: Collection, collection: 618529, poster: https://theposterdb.com/api/assets/14433}
+  Black Panther:
+    template: {name: Collection, collection: 529892, poster: https://theposterdb.com/api/assets/14270}    
+  Shang-Chi:
+    template: {name: Collection, collection: 912503, poster: https://theposterdb.com/api/assets/206291}   
+  Eternals:
+    template: {name: Collection, collection: 1011336, poster: https://theposterdb.com/api/assets/188336}    
   The Marvel Cinematic Universe:
+    template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls066946827/
-    summary: A collection of all MCU movies.
-    sort_title: '+001'
-    url_poster: https://plexcollectionposters.com/images/2021/08/19/MCU1483eca433a33050.jpg
-    collection_order: release
-    collection_mode: default
-    sync_mode: sync
-
+    url_poster: https://theposterdb.com/api/assets/87212
+    summary: The Marvel Cinematic Universe (MCU) is an American media franchise and shared universe centered on a series of superhero films produced by Marvel Studios. The films are based on characters that appear in American comic books published by Marvel Comics. The franchise also includes television series, short films, digital series, and literature. The shared universe, much like the original Marvel Universe in comic books, was established by crossing over common plot elements, settings, cast, and characters.
   Best Picture Winners:
+    template: {name: Collection}
     imdb_list: https://www.imdb.com/search/title/?count=200&groups=oscar_best_picture_winners&sort=year%2Cdesc
-    summary: A collection of all Oscar winners.
-    sort_title: '+002'
     url_poster: https://theposterdb.com/api/assets/10047
+    summary: The Academy Award for Best Picture is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. This award goes to the producers of the film and is the only category in which every member of the Oscars is eligible to submit a nomination and vote on the final ballot.[1] The Best Picture category is usually the final award of the night and is widely considered as the most prestigious honor of the ceremony.
     collection_order: custom
-    collection_mode: default
-    sync_mode: sync
+    sort_title: 0001_<<collection_name>>
 
 metadata:
 
