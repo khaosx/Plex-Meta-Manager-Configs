@@ -3,7 +3,7 @@
 ######################################################
 
 templates:
- Collection:
+  Collection:
     optional:
       - collection
       - movie
