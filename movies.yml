@@ -15,6 +15,15 @@ templates:
     sort_title: +_<<collection_name>>
     sync_mode: sync
     collection_order: release
+  Collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    url_poster: <<poster>>
+    sync_mode: sync
+    collection_order: release
 
 collections:
 
@@ -28,13 +37,54 @@ collections:
 
 # Directors Collections
 
-#  (Dir) Christopher Nolan:
-#    template: {name: Director, director: 525}
-#  (Dir) Quentin Tarantino:
-#    template: {name: Director, director: 138}
+  (Dir) Christopher Nolan:
+    template: {name: Director, director: 525}
+  (Dir) Quentin Tarantino:
+    template: {name: Director, director: 138}
 
-# Universe Collections
+# Movie Collections
 
+  The DC Extended Universe:
+    template: {name: Collection, collection: "209131, 531242, 468552, 573693, 724848, 948485", movie: "141052, 791373, 297797, 298618" poster: https://plexcollectionposters.com/images/2019/10/15/dceuc83cf35c6f5950d4.jpg}
+  The Fast and the Furious:
+    template: {name: Collection, collection: "9485, 688042", poster: https://theposterdb.com/api/assets/110853}
+    summary: An action film series centered on illegal street racing and heists. Collection also includes 'Hobbs & Shaw', a spin-off series staring the characters Hobbs and Shaw.   
+  Godzilla (Showa):
+    template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926}
+    sort_title: Godzilla 01 (Showa)
+  Godzilla (Heisei):
+    template: {name: Collection, collection: 374511, movie: 39256, poster: https://theposterdb.com/api/assets/128721}
+    sort_title: Godzilla 02 (Heisei)
+  Godzilla (Millennium):
+    template: {name: Collection, collection: 374512, poster: https://theposterdb.com/api/assets/136302}
+    sort_title: Godzilla 04 (Millennium)
+  Godzilla (MonsterVerse):
+    template: {name: Collection, collection: 535313, movie: 293167, poster: https://theposterdb.com/api/assets/135068}
+    sort_title: Godzilla 05 (MonsterVerse)
+  Godzilla (Anime):
+    template: {name: Collection, collection: 535790, poster: https://theposterdb.com/api/assets/21827}
+    sort_title: Godzilla 07 (Anime)
+  Bond...James Bond.:
+    template: {name: Collection, collection: 645, poster: https://plexcollectionposters.com/images/2022/02/17/James-Bond-Collection8a30642239ed9f9a.jpg}
+  The Wizarding World:
+    template: {name: Collection, collection: "1241, 435259", poster: https://plexcollectionposters.com/images/2021/02/25/wizards997c942a16088841.jpg}
+  Star Wars:
+    template: {name: Collection, collection: 10, poster: https://plexcollectionposters.com/images/2020/01/19/Star-Wars-Collectionad1baa4280687ea3.png}
+  Jurassic Park:
+    template: {name: Collection, collection: 328, poster: https://theposterdb.com/api/assets/13234}
+  Middle Earth:
+    template: {name: Collection, collection: "119,121938", poster: https://plexcollectionposters.com/images/2019/05/11/Middle-Earth-Collection2a1509c3cf23d151.jpg}
+  Predator:
+    template: {name: Collection, collection: 399, poster: https://theposterdb.com/api/assets/43442}
+  Addams Family:
+    template: {name: Collection, collection: "11716, 750822", poster: https://theposterdb.com/api/assets/53152}
+  Alien:
+    template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/1205}
+  American Pie:
+    template: {name: Collection, collection: "2806, 298820", poster: https://theposterdb.com/api/assets/5167}
+
+# List collections
+ 
   The Marvel Cinematic Universe:
     imdb_list: https://www.imdb.com/list/ls066946827/
     summary: A collection of all MCU movies.
@@ -44,73 +94,10 @@ collections:
     collection_mode: default
     sync_mode: sync
 
-  The DC Extended Universe:
-    tmdb_collection:
-      - 209131
-      - 531242
-      - 468552
-      - 573693
-      - 724848
-      - 948485
-    tmdb_movie:
-      - 141052
-      - 791373
-      - 297797
-      - 298618
-    summary: A collection of all DCEU movies.
-    sort_title: '+002'
-    url_poster: https://plexcollectionposters.com/images/2019/10/15/dceuc83cf35c6f5950d4.jpg
-    collection_order: release
-    collection_mode: default
-
-  The Wizarding World:
-    tmdb_list: https://www.themoviedb.org/list/94773
-    summary: A collection of all the Wizarding World movies.
-    sort_title: '+003'
-    url_poster: https://plexcollectionposters.com/images/2021/02/25/wizards997c942a16088841.jpg
-    collection_order: release
-    collection_mode: default
-
-  James Bond:
-    tmdb_collection: https://www.themoviedb.org/collection/645
-    summary: A collection of all the James Bond movies.
-    sort_title: '+007'
-    url_poster: https://plexcollectionposters.com/images/2022/02/17/James-Bond-Collection8a30642239ed9f9a.jpg
-    collection_order: release
-    collection_mode: default
-
-  Star Wars:
-    tmdb_collection: https://www.themoviedb.org/collection/10-star-wars-collection
-    tmdb_summary: https://www.themoviedb.org/collection/10-star-wars-collection
-    sort_title: '+004'
-    url_poster: https://plexcollectionposters.com/images/2020/01/19/Star-Wars-Collectionad1baa4280687ea3.png
-    collection_order: release
-    collection_mode: default
-
-  Jurassic Park:
-    tmdb_collection: https://www.themoviedb.org/collection/328-jurassic-park-collection
-    tmdb_summary: https://www.themoviedb.org/collection/328-jurassic-park-collection
-    sort_title: '+008'
-    collection_order: release
-    collection_mode: default
-
-  Middle Earth:
-    tmdb_collection: 
-      - 119
-      - 121938
-    summary: A collection of all J.R.R. Tolkien's movies.
-    sort_title: '+005'
-    url_poster: https://plexcollectionposters.com/images/2019/05/11/Middle-Earth-Collection2a1509c3cf23d151.jpg
-    collection_order: release
-    collection_mode: default
-
-
-# List collections
-  
   Best Picture Winners:
     imdb_list: https://www.imdb.com/search/title/?count=200&groups=oscar_best_picture_winners&sort=year%2Cdesc
     summary: A collection of all Oscar winners.
-    sort_title: '/001'
+    sort_title: '+002'
     url_poster: https://theposterdb.com/api/assets/10047
     collection_order: custom
     collection_mode: default
@@ -118,8 +105,6 @@ collections:
 
 metadata:
 
-#  "batteries not included":
-#    tmdb_movie: 11548
   "Frank Turner Live From Wembley":
     tmdb_movie: 170481
     genre: music
