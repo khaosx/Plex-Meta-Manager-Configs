@@ -45,7 +45,7 @@ collections:
 # Movie Collections
 
   The DC Extended Universe:
-    template: {name: Collection, collection: "209131, 531242, 468552, 573693, 724848, 948485", movie: "141052, 791373, 297797, 298618" poster: https://plexcollectionposters.com/images/2019/10/15/dceuc83cf35c6f5950d4.jpg}
+    template: {name: Collection, collection: "209131, 531242, 468552, 573693, 724848, 948485", movie: "141052, 791373, 297797, 298618", poster: https://plexcollectionposters.com/images/2019/10/15/dceuc83cf35c6f5950d4.jpg}
   The Fast and the Furious:
     template: {name: Collection, collection: "9485, 688042", poster: https://theposterdb.com/api/assets/110853}
     summary: An action film series centered on illegal street racing and heists. Collection also includes 'Hobbs & Shaw', a spin-off series staring the characters Hobbs and Shaw.   
