@@ -51,26 +51,24 @@ collections:
     template: {name: Collection, collection: "9485, 688042", poster: https://theposterdb.com/api/assets/110853}
     summary: An action film series centered on illegal street racing and heists. Collection also includes 'Hobbs & Shaw', a spin-off series staring the characters Hobbs and Shaw.   
   Godzilla (Showa):
-    template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926}
-    sort_title: Godzilla 01 (Showa)
+    template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926} 
+    sort_title: 0100_Godzilla 01 (Showa)
   Godzilla (Heisei):
     template: {name: Collection, collection: 374511, movie: 39256, poster: https://theposterdb.com/api/assets/128721}
-    sort_title: Godzilla 02 (Heisei)
+    sort_title: 0100_Godzilla 02 (Heisei)
   Godzilla (Millennium):
     template: {name: Collection, collection: 374512, poster: https://theposterdb.com/api/assets/136302}
-    sort_title: Godzilla 04 (Millennium)
+    sort_title: 0100_Godzilla 04 (Millennium)
   Godzilla (MonsterVerse):
     template: {name: Collection, collection: 535313, movie: 293167, poster: https://theposterdb.com/api/assets/135068}
-    sort_title: Godzilla 05 (MonsterVerse)
+    sort_title: 0100_Godzilla 05 (MonsterVerse)
   Godzilla (Anime):
     template: {name: Collection, collection: 535790, poster: https://theposterdb.com/api/assets/21827}
-    sort_title: Godzilla 07 (Anime)
+    sort_title: 0100_Godzilla 07 (Anime)
   Bond...James Bond.:
     template: {name: Collection, collection: 645, poster: https://plexcollectionposters.com/images/2022/02/17/James-Bond-Collection8a30642239ed9f9a.jpg}
   The Wizarding World:
     template: {name: Collection, collection: "1241, 435259", poster: https://plexcollectionposters.com/images/2021/02/25/wizards997c942a16088841.jpg}
-  Star Wars:
-    template: {name: Collection, collection: 10, poster: https://plexcollectionposters.com/images/2020/01/19/Star-Wars-Collectionad1baa4280687ea3.png}
   Jurassic Park:
     template: {name: Collection, collection: 328, poster: https://theposterdb.com/api/assets/13234}
   Middle Earth:
@@ -124,12 +122,8 @@ collections:
     template: {name: Collection, collection: 623911, poster: https://theposterdb.com/api/assets/63348}
   Cars:
     template: {name: Collection, collection: 87118, poster: https://theposterdb.com/api/assets/132}
-  Charlie Brown:
-    template: {name: Collection}
-    imdb_list: https://www.imdb.com/list/ls054850259/
-    url_poster: https://theposterdb.com/api/assets/188202
-    summary: Collection of Movies and TV Specials with the beloved Peanuts characters.
   Cheech & Chong:
+    template: {name: Collection}
     trakt_list_details: https://trakt.tv/users/siskourso/lists/cheech-chong
     url_poster: https://theposterdb.com/api/assets/106306
   The Chronicles of Narnia:
@@ -298,11 +292,6 @@ collections:
   "Mission: Impossible":
     template: {name: Collection, collection: 87359, poster: https://theposterdb.com/api/assets/2705}
     name_mapping: Mission Impossible
-  Monty Python:
-    template: {name: Collection}
-    imdb_list: https://www.imdb.com/list/ls072012494/
-    url_poster: https://theposterdb.com/api/assets/148489
-    summary: Monty Python is a British surreal comedy troupe who created sketch comedy television shows and movies
   Mortal Kombat:
     template: {name: Collection, collection: 9818, movie: "664767, 460465", poster: https://theposterdb.com/api/assets/6106}
   Mothra:
@@ -361,9 +350,6 @@ collections:
     template: {name: Collection, collection: 514978, poster: https://www.themoviedb.org/t/p/original/bc1DhfQdFiHFT4mmdHQR5XejPei.jpg}
   Resident Evil:
     template: {name: Collection, collection: 17255, poster: https://theposterdb.com/api/assets/11303}
-  "Resident Evil: Biohazard":
-    template: {name: Collection, collection: 133352, poster: https://theposterdb.com/api/assets/95488}
-    name_mapping: Resident Evil Biohazard
   Return of the Living Dead:
     template: {name: Collection, collection: 101471, poster: https://theposterdb.com/api/assets/9285}
   Revenge of the Nerds:
