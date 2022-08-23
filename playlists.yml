@@ -2,7 +2,18 @@
 #                    Playlists                       #
 ######################################################
 
+templates:
+  tlists:
+    trakt_list: <<list>>
+    libraries: Movies,TV
+    sync_to_users: 
+      - Kris Newman
+    sync_mode: sync
+
 playlists:
+
+
+
 #  Late Night Archer:
 #    sync_mode: sync
 #    libraries: TV
@@ -19,24 +30,26 @@ playlists:
 #            episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
 
   Marvel Cinematic Universe - Chronological:
-    sync_mode: sync
+    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
     libraries: Movies,TV
     sync_to_users: 
       - Kris Newman
       - jackienewman
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
+    sync_mode: sync
     summary: Marvel Cinematic Universe In chronological order
 
   X-Files (FotW):
-    trakt_list:
-      - https://trakt.tv/lists/23903123
-    sync_mode: sync
+    trakt_list: https://trakt.tv/lists/23903123
+    libraries: Movies,TV
     sync_to_users: 
       - Kris Newman
+    sync_mode: sync
 
   X-Files (Mythos):
-    trakt_list:
-      - https://trakt.tv/lists/23903191
-    sync_mode: sync
-    sync_to_users: 
-      - Kris Newman
+    template: {name: tlists, list: https://trakt.tv/lists/23903191}
+#  X-Files (Mythos):
+#    trakt_list: https://trakt.tv/lists/23903191
+#    libraries: Movies,TV
+#    sync_to_users: 
+#      - Kris Newman
+#    sync_mode: sync
