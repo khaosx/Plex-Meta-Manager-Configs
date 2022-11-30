@@ -7,7 +7,7 @@ templates:
     trakt_list: <<list>>
     libraries: Movies,TV
     sync_to_users: 
-      - Kris Newman
+      - Kris
     sync_mode: sync
 
 playlists:
@@ -33,7 +33,7 @@ playlists:
     trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
     libraries: Movies,TV
     sync_to_users: 
-      - Kris Newman
+      - Kris
       - jackienewman
     sync_mode: sync
     summary: Marvel Cinematic Universe In chronological order
@@ -42,7 +42,7 @@ playlists:
     trakt_list: https://trakt.tv/lists/23903123
     libraries: Movies,TV
     sync_to_users: 
-      - Kris Newman
+      - Kris
     sync_mode: sync
 
   X-Files (Mythos):
