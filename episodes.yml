@@ -63,9 +63,9 @@ metadata:
           2:
             title: "Done The Impossible"
             summary: >-
-                  "Done the Impossible" is a documentary fan film of the TV series "Firefly". Its main focus is on 
-                  the fans themselves, and how they came to love the show and, ultimately, played a part in getting 
-                  the film "Serenity" made. 
+                  "Done the Impossible" is a documentary fan film of the TV series "Firefly". Its main focus is on
+                  the fans themselves, and how they came to love the show and, ultimately, played a part in getting
+                  the film "Serenity" made.
           5:
             title: "Serenity: The 10th Character"
             summary: >-
@@ -97,7 +97,7 @@ metadata:
           12:
             title: "Serenity: The 10th Character"
             summary: >-
-                  A documentary about the spaceship Serenity from Firefly.               
+                  A documentary about the spaceship Serenity from Firefly.
       1:
         url_poster: https://theposterdb.com/api/assets/118704
         summary: >-
