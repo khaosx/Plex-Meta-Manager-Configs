@@ -49,9 +49,9 @@ collections:
     template: {name: Collection, collection: "209131, 531242, 468552, 573693, 724848, 948485", movie: "141052, 791373, 297797, 298618", poster: https://plexcollectionposters.com/images/2019/10/15/dceuc83cf35c6f5950d4.jpg}
   The Fast and the Furious:
     template: {name: Collection, collection: "9485, 688042", poster: https://theposterdb.com/api/assets/110853}
-    summary: An action film series centered on illegal street racing and heists. Collection also includes 'Hobbs & Shaw', a spin-off series staring the characters Hobbs and Shaw.   
+    summary: An action film series centered on illegal street racing and heists. Collection also includes 'Hobbs & Shaw', a spin-off series staring the characters Hobbs and Shaw.
   Godzilla (Showa):
-    template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926} 
+    template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926}
     sort_title: 0100_Godzilla 01 (Showa)
   Godzilla (Heisei):
     template: {name: Collection, collection: 374511, movie: 39256, poster: https://theposterdb.com/api/assets/128721}
@@ -505,11 +505,11 @@ collections:
   Doctor Strange:
     template: {name: Collection, collection: 618529, poster: https://theposterdb.com/api/assets/14433}
   Black Panther:
-    template: {name: Collection, collection: 529892, poster: https://theposterdb.com/api/assets/14270}    
+    template: {name: Collection, collection: 529892, poster: https://theposterdb.com/api/assets/14270}
   Shang-Chi:
-    template: {name: Collection, collection: 912503, poster: https://theposterdb.com/api/assets/206291}   
+    template: {name: Collection, collection: 912503, poster: https://theposterdb.com/api/assets/206291}
   Eternals:
-    template: {name: Collection, collection: 1011336, poster: https://theposterdb.com/api/assets/188336}    
+    template: {name: Collection, collection: 1011336, poster: https://theposterdb.com/api/assets/188336}
   The Marvel Cinematic Universe:
     template: {name: Collection}
     imdb_list: https://www.imdb.com/list/ls066946827/
@@ -531,4 +531,4 @@ metadata:
 
   "Get Better: A Film About Frank Turner":
     tmdb_movie: 430100
-    genre: music,documentary   
+    genre: music,documentary
