@@ -48,8 +48,8 @@ collections:
   The DC Extended Universe:
     template: {name: Collection, collection: "209131, 531242, 468552, 573693, 724848, 948485", movie: "141052, 791373, 297797, 298618", poster: https://plexcollectionposters.com/images/2019/10/15/dceuc83cf35c6f5950d4.jpg}
   The Fast and the Furious:
-    template: {name: Collection, collection: "9485, 688042", poster: https://theposterdb.com/api/assets/110853}
-    summary: An action film series centered on illegal street racing and heists. Collection also includes 'Hobbs & Shaw', a spin-off series staring the characters Hobbs and Shaw.
+    template: {name: Collection, collection: 9485, poster: https://theposterdb.com/api/assets/110853}
+    summary: An action film series centered on illegal street racing and heists.
   Godzilla (Showa):
     template: {name: Collection, collection: 374509, movie: 18983, poster: https://theposterdb.com/api/assets/125926}
     sort_title: 0100_Godzilla 01 (Showa)
@@ -135,10 +135,12 @@ collections:
   Clerks:
     template: {name: Collection, collection: 182813, poster: https://theposterdb.com/api/assets/35320}
   Cloverfield:
-    template: {name: Trakt, list: https://trakt.tv/users/siskourso/lists/cloverfield-collection, poster: https://theposterdb.com/api/assets/80058}
+    template: {name: Collection]
+    trakt_list_details:: https://trakt.tv/users/siskourso/lists/cloverfield-collection
+    url_poster: https://theposterdb.com/api/assets/80058
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
   Creed:
-    template: {name: Collection, collection: 553717, poster: https://theposterdb.com/api/assets/78968}
+    template: {name: Collection, collection: 553717, poster: https://theposterdb.com/api/assets/84016}
   The Crow:
     template: {name: Collection, collection: 9436, poster: https://theposterdb.com/api/assets/111879}
   Cube:
@@ -464,8 +466,6 @@ collections:
     template: {name: Collection, collection: 721111, poster: https://theposterdb.com/api/assets/77409}
   The Vampire Chronicles:
     template: {name: Collection, collection: 217704, poster: https://theposterdb.com/api/assets/99737}
-  Van Helsing:
-    template: {name: Collection, collection: 109608, poster: https://www.themoviedb.org/t/p/original/cdQXwnvvbv2ldGCKpA3QAdwsO9l.jpg}
   Venom:
     template: {name: Collection, collection: 558216, poster: https://theposterdb.com/api/assets/107622}
   Wall Street:
@@ -503,9 +503,9 @@ collections:
   Zoolander:
     template: {name: Collection, collection: 352789, poster: https://theposterdb.com/api/assets/51995}
   Doctor Strange:
-    template: {name: Collection, collection: 618529, poster: https://theposterdb.com/api/assets/14433}
+    template: {name: Collection, collection: 618529, poster: https://theposterdb.com/api/assets/203039}
   Black Panther:
-    template: {name: Collection, collection: 529892, poster: https://theposterdb.com/api/assets/14270}
+    template: {name: Collection, collection: 529892, poster: https://theposterdb.com/api/assets/253346}
   Shang-Chi:
     template: {name: Collection, collection: 912503, poster: https://theposterdb.com/api/assets/206291}
   Eternals:
