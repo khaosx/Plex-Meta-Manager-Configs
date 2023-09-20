@@ -14,7 +14,7 @@ playlists:
     libraries: TV
     plex_search:
       sort_by:  release.asc
-      type: episodes
+      type: episode
       all:
         title.is: Archer (2009)
         episode_air_date.not: 14       # this field only accepts days so weeks cannot be added directly
