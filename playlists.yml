@@ -23,21 +23,24 @@ playlists:
         any:
           - episode_air_date.after: 01/01/2019     # Because I personally didn't enjoy the Coma Seasons
             episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
-
-  Marvel Cinematic Universe - Chronological:
-    trakt_list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc
-    libraries: Movies,TV
+  Arrowverse (Timeline Order):
+    template: {name: tlists, list: https://trakt.tv/users/donxy/lists/arrowverse}
+  DC Animated Universe (Timeline Order): 
+    template: {name: tlists, list: https://trakt.tv/users/donxy/lists/dc-animated-series-universe}
+  Marvel Cinematic Universe (Timeline Order):
+    template: {name: tlists, list: https://trakt.tv/users/donxy/lists/marvel-cinematic-universe}
     sync_to_users:
       - jackienewman
-    sync_mode: sync
     summary: Marvel Cinematic Universe In chronological order
-
+  Star Trek (Timeline Order): 
+    template: {name: tlists, list: https://trakt.tv/users/goodevilgenius/lists/star-trek-chronology}
+  Star Wars (Timeline Order): 
+    template: {name: tlists, list: https://trakt.tv/users/ruben_vw_/lists/star-wars-canon-timeline}
+  Star Wars The Clone Wars (Timeline Order): 
+    template: {name: tlists, list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order}
+  X-Men (Timeline Order): 
+    template: {name: tlists, list: https://trakt.tv/users/heyitsbea/lists/x-men}
   X-Files (FotW):
-    trakt_list: https://trakt.tv/lists/23903123
-    libraries: Movies,TV
-    sync_mode: sync
-
+    template: {name: tlists, list: https://trakt.tv/lists/23903123}
   X-Files (Mythos):
     template: {name: tlists, list: https://trakt.tv/lists/23903191}
-    libraries: Movies,TV
-    sync_mode: sync
