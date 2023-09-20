@@ -41,12 +41,3 @@ playlists:
     template: {name: tlists, list: https://trakt.tv/lists/23903191}
     libraries: Movies,TV
     sync_mode: sync
-
-playlist_files:
-  - pmm: arrow
-  - pmm: dcau
-  - pmm: mcu
-  - pmm: startrek
-  - pmm: starwars
-  - pmm: clonewars
-  - pmm: xmen
