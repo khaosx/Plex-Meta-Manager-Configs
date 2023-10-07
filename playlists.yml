@@ -39,18 +39,15 @@ playlists:
       sort_by:  random
       type: episode
       limit: 100
-      any:
-        title.is: Archer (2009)
+      all:
+        episode_air_date.not: 14       # this field only accepts days so weeks cannot be added directly
+        episode_unplayed: false
+        episode_last_played.not: 21    # this field only accepts days so weeks cannot be added directly
         any:
-          title: Rick And Morty
-        any: 
-          title: American Dad
-        any: 
-          title: Family Guy
-        all:
-          episode_air_date.not: 14       # this field only accepts days so weeks cannot be added directly
-          episode_unplayed: false
-          episode_last_played.not: 21    # this field only accepts days so weeks cannot be added directly
+          - title.is: Archer (2009)
+          - title: Rick And Morty
+          - title: American Dad
+          - title: Family Guy
 
 
 ######################################################
