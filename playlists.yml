@@ -9,6 +9,7 @@ templates:
     libraries: Movies,TV
     sync_to_users: all
     sync_mode: sync
+    delete_playlist: true
 
 playlists:
 
