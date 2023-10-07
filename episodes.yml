@@ -47,6 +47,42 @@ collections:
       limit: 25
     summary: The top 100 Simpsons episodes by IMDB user rating
 
+  Archer Top 25 Episodes:
+    collection_order: custom
+    collection_level: episode
+    sync_mode: sync
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0096697&sort=user_rating,desc
+      limit: 25
+    summary: The top 100 Archer episodes by IMDB user rating
+  
+  American Dad! Top 25 Episodes:
+    collection_order: custom
+    collection_level: episode
+    sync_mode: sync
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0397306&sort=user_rating,desc
+      limit: 25
+    summary: The top 100 American Dad! episodes by IMDB user rating
+      
+  Family Guy Top 25 Episodes:
+    collection_order: custom
+    collection_level: episode
+    sync_mode: sync
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt0182576&sort=user_rating,desc
+      limit: 25
+    summary: The top 100 Family Guy episodes by IMDB user rating
+
+  Rick & Morty Top 25 Episodes:
+    collection_order: custom
+    collection_level: episode
+    sync_mode: sync
+    imdb_list:
+      url: https://www.imdb.com/search/title/?series=tt2861424&sort=user_rating,desc
+      limit: 25
+    summary: The top 100 Rick & Morty episodes by IMDB user rating
+
 metadata:
   Firefly:
     episode_ordering: tvdb_dvd
@@ -111,6 +147,7 @@ metadata:
     delete_episodes: never
     keep_episodes: all
     url_poster: https://artworks.thetvdb.com/banners/posters/80731-1.jpg
+    mapping_id: 80731
     seasons:
       1:
         summary: >-
