@@ -42,36 +42,36 @@ collections:
     director: tmdb
     template: {name: People, person: 138}
   Bill Murray:
-    template: {name: people, person: 1532}
+    template: {name: People, person: 1532}
   Bruce Lee:
-    template: {name: people, person: 19429}
+    template: {name: People, person: 19429}
   Bruce Willis:
-    template: {name: people, person: 62}
+    template: {name: People, person: 62}
   J.J. Abrams:
     director: tmdb
-    template: {name: people, person: 15344}
+    template: {name: People, person: 15344}
   Jack Black:
-    template: {name: people, person: 70851}
+    template: {name: People, person: 70851}
   Kevin Smith:
     writer: tmdb
     director: tmdb
-    template: {name: people, person: 19303}
+    template: {name: People, person: 19303}
   Leonardo DiCaprio:
-    template: {name: people, person: 6193}
+    template: {name: People, person: 6193}
   Mel Brooks:
     writer: tmdb
     director: tmdb
-    template: {name: people, person: 14639}
+    template: {name: People, person: 14639}
   Tim Burton:
     writer: tmdb
     director: tmdb
-    template: {name: people, person: 510}
+    template: {name: People, person: 510}
   Tom Cruise:
-    template: {name: people, person: 500}
+    template: {name: People, person: 500}
   Tom Hanks:
-    template: {name: people, person: 31}
+    template: {name: People, person: 31}
   Tommy Lee Jones:
-    template: {name: people, person: 2176}
+    template: {name: People, person: 2176}
 
 # Studio Collections
 
