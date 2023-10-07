@@ -7,9 +7,9 @@ templates:
     trakt_list: <<list>>
     url_poster: <<poster>> 
     libraries: Movies,TV
-    sync_to_users: all
+    sync_to_users: none
     sync_mode: sync
-    delete_playlist: true
+    delete_playlist: false
 
 playlists:
 
@@ -61,6 +61,7 @@ playlists:
   Marvel Cinematic Universe:
     template: {name: tlists, list: "https://trakt.tv/users/donxy/lists/marvel-cinematic-universe?sort=rank,asc", poster: https://imgur.com/cx4CpKo}
     summary: Marvel Cinematic Universe In Chronological Order
+    sync_to_users: Jackie Newman
   Star Wars Canon Timeline:
     template: {name: tlists, list: "https://trakt.tv/lists/9410223", poster: https://imgur.com/3mjh2IC}
     summary: Timeline of all movies and series that are considered Canon. This includes all Saga Episodes (Ep. I-IX), Series (The Clone Wars, Rebels, Resistance, Disney+ series), Web-Series and shorts (Forces of Destiny, Galaxy of Adventures) and spin-off movies (The Clone Wars, Rogue One, Solo, etc.)
