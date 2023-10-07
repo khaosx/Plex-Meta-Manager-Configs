@@ -26,6 +26,13 @@ templates:
 
 collections:
 
+# Special Case
+  Christopher Nolan:
+    director: tmdb
+    person: 525
+    sort_title: ++_<<collection_name>>
+    collection_order: release
+
 # People Collections
 
   John Wayne:
@@ -34,9 +41,6 @@ collections:
     template: {name: People, person: 11288}
   Nic Cage:
     template: {name: People, person: 2963}
-  Christopher Nolan:
-    director: tmdb
-    template: {name: People, person: 525}
   Quentin Tarantino:
     writer: tmdb
     director: tmdb
