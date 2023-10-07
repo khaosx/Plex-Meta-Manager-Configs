@@ -8,40 +8,98 @@ templates:
       - collection
       - movie
     tmdb_collection_details: <<collection>>
-    sort_title: 0100_<<collection_name>>
+    sort_title: +++_<<collection_name>>
     tmdb_movie: <<movie>>
     url_poster: <<poster>>
-    sync_mode: sync
     collection_order: release
-  Actor:
+  People:
     actor: tmdb
     tmdb_person: <<actor>>
-    sort_title: 0200_<<collection_name>>
-    sync_mode: sync
+    sort_title: ++_<<collection_name>>
     collection_order: release
-  Director:
-    director: tmdb
-    tmdb_person: <<director>>
-    sort_title: 0300_<<collection_name>>
-    sync_mode: sync
+  Studio:
+    plex_search:
+      studio: <<studio>>
+    url_poster: <<poster>>
+    sort_title: +++++_<<collection_name>>
     collection_order: release
 
 collections:
 
-# Actor Collections
-  (Actor) John Wayne:
-    template: {name: Actor, actor: 4165}
-  (Actor) Robert Pattinson:
-    template: {name: Actor, actor: 11288}
-  (Actor) Nic Cage:
-    template: {name: Actor, actor: 2963}
+# People Collections
 
-# Directors Collections
+  John Wayne:
+    template: {name: People, person: 4165}
+  Robert Pattinson:
+    template: {name: People, person: 11288}
+  Nic Cage:
+    template: {name: People, person: 2963}
+  Christopher Nolan:
+    director: tmdb
+    template: {name: People, person: 525}
+  Quentin Tarantino:
+    writer: tmdb
+    director: tmdb
+    template: {name: People, person: 138}
+  Bill Murray:
+    template: {name: people, person: 1532}
+  Bruce Lee:
+    template: {name: people, person: 19429}
+  Bruce Willis:
+    template: {name: people, person: 62}
+  J.J. Abrams:
+    director: tmdb
+    template: {name: people, person: 15344}
+  Jack Black:
+    template: {name: people, person: 70851}
+  Kevin Smith:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: 19303}
+  Leonardo DiCaprio:
+    template: {name: people, person: 6193}
+  Mel Brooks:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: 14639}
+  Tim Burton:
+    writer: tmdb
+    director: tmdb
+    template: {name: people, person: 510}
+  Tom Cruise:
+    template: {name: people, person: 500}
+  Tom Hanks:
+    template: {name: people, person: 31}
+  Tommy Lee Jones:
+    template: {name: people, person: 2176}
 
-  (Dir) Christopher Nolan:
-    template: {name: Director, director: 525}
-  (Dir) Quentin Tarantino:
-    template: {name: Director, director: 138}
+# Studio Collections
+
+  Blue Sky Animation:
+    template: {name: Studio, studio: "Blue Sky Animation", poster: https://theposterdb.com/poster/33753}
+    summary: Blue Sky Studios, Inc. is an American computer animation film studio based in Greenwich, Connecticut. It is a subsidiary of 20th Century Animation, a division of Disney Studios Content.
+  DreamWorks:
+    template: {name: Studio, studio: "DreamWorks Animation, DreamWorks Pictures", poster: https://theposterdb.com/api/assets/52723}
+    summary: DreamWorks Animation LLC (also simply known as DreamWorks) is an American animation studio and a subsidiary of Universal Pictures, itself a subsidiary of Comcast's NBCUniversal. It is based in Glendale, California, and produces animated feature films, television programs, and online virtual games.
+  Illumination Entertainment:
+    template: {name: Studio, studio: "Illumination Entertainment", poster: https://theposterdb.com/api/assets/8158}
+    summary: Illumination is an American film and animation studio founded by Chris Meledandri in 2007 and owned by Universal Pictures, a division of NBCUniversal, which is itself a division of Comcast. Meledandri produces the films, while Universal finances and distributes all the films. The studio is responsible for the Despicable Me and The Secret Life of Pets franchises and the film adaptations of Dr. Seuss’ books The Lorax and How the Grinch Stole Christmas. The Minions, characters from the Despicable Me series, are the studio's mascots.
+  Pixar:
+    template: {name: Studio, studio: Pixar, poster: https://theposterdb.com/api/assets/38226}
+    summary: Pixar Animation Studios, commonly known as Pixar, is an American computer animation studio based in Emeryville, California, a subsidiary of Disney Studios Content owned by The Walt Disney Company. Pixar began in 1979 as part of the Lucasfilm computer division, known as the Graphics Group, before its spin-off as a corporation on February 3, 1986, with funding from Apple co-founder Steve Jobs, who became its majority shareholder. Disney purchased Pixar in 2006 at a valuation of $7.4 billion by converting each share of Pixar stock to 2.3 shares of Disney stock, a transaction that resulted in Jobs becoming Disney's largest single shareholder at the time. Pixar is best known for its feature films technologically powered by RenderMan, the company's own implementation of the industry-standard RenderMan Interface Specification image-rendering application programming interface. Luxo Jr., a desk lamp from the studio's 1986 short film of the same name, is the studio's mascot.
+  Sony Pictures Animation:
+    template: {name: Studio, studio: "Sony Pictures, Sony Pictures Television", poster: https://theposterdb.com/api/assets/131749}
+    summary: Sony Pictures Animation Inc. is an American animation studio owned by Sony Entertainment's Sony Pictures Entertainment through their Motion Picture Group division and founded on May 9, 2002. The studio's films are distributed worldwide by Sony Pictures Releasing under their Columbia Pictures label, while all direct-to-video releases are released by Sony Pictures Home Entertainment.
+  Walt Disney Animation Studios:
+    template: {name: Studio, studio: "Walt Disney Animation Studios", poster: https://theposterdb.com/api/assets/6016}
+    summary: Walt Disney Animation Studios (WDAS), sometimes shortened to Disney Animation, is an American animation studio that creates animated features and short films for The Walt Disney Company. Founded on October 16, 1923 by brothers Walt Disney and Roy O. Disney, it is one of the oldest-running animation studios in the world. It is currently organized as a division of Walt Disney Studios and is headquartered at the Roy E. Disney Animation Building at the Walt Disney Studios lot in Burbank, California.
+  Walt Disney Pictures:
+    template: {name: Studio, studio: "Walt Disney Pictures", poster: https://theposterdb.com/api/assets/16549}
+    summary: Walt Disney Pictures is an American film production studio of The Walt Disney Studios, which is owned by The Walt Disney Company. The studio is the flagship producer of live-action feature films within the Walt Disney Studios unit, and is based at the Walt Disney Studios in Burbank, California. Animated films produced by Walt Disney Animation Studios and Pixar Animation Studios are also released under this brand. Walt Disney Studios Motion Pictures distributes and markets the films produced by Walt Disney Pictures.
+  Warner Bros.:
+    template: {name: Studio, studio: "Warner Animation Group, Warner Bros., Warner Bros. Animation, Warner Bros. Pictures, Warner Independent Pictures (WIP)", poster: https://theposterdb.com/api/assets/47604}
+    summary: Warner Bros.is the third-oldest American movie studio in continuous operation, after Paramount Pictures was founded on May 8, 1912 as Famous Players Film Corporation, and Universal Studios founded on June 8, 1912. Warner Bros. incorporated on April 4, 1923.
+
 
 # Movie Collections
 
@@ -79,68 +137,39 @@ collections:
     template: {name: Collection, collection: "11716, 750822", poster: https://theposterdb.com/api/assets/53152}
   Alien:
     template: {name: Collection, collection: "8091, 135416", poster: https://theposterdb.com/api/assets/1205}
-  American Pie:
-    template: {name: Collection, collection: "2806, 298820", poster: https://theposterdb.com/api/assets/5167}
-  28 Days/Weeks Later:
-    template: {name: Collection, collection: 1565, poster: https://theposterdb.com/api/assets/4963}
-    name_mapping: 28 Days-Weeks Later
   The Amazing Spider-Man:
     template: {name: Collection, collection: 125574, poster: https://theposterdb.com/api/assets/107621}
-  Anchorman:
-    template: {name: Collection, collection: 93791, poster: https://theposterdb.com/api/assets/17931}
   Ant-Man:
     template: {name: Collection, collection: 422834, poster: https://theposterdb.com/api/assets/4818}
-  Austin Powers:
-    template: {name: Collection, collection: 1006, poster: https://theposterdb.com/api/assets/35262}
   The Avengers:
     template: {name: Collection, collection: 86311, poster: https://theposterdb.com/api/assets/4816}
   AVP:
     template: {name: Collection, collection: 115762, poster: https://theposterdb.com/api/assets/43455}
   Back to the Future:
     template: {name: Collection, collection: 264, poster: https://theposterdb.com/api/assets/108170}
-  Bad Boys:
-    template: {name: Collection, collection: 14890, poster: https://theposterdb.com/api/assets/61260}
   Batman:
     template: {name: Collection, collection: 120794, poster: https://theposterdb.com/api/assets/27394}
   Beverly Hills Cop:
     template: {name: Collection, collection: 85861, poster: https://theposterdb.com/api/assets/45076}
-  Bill & Ted's Most Excellent:
-    template: {name: Collection, collection: 91746, poster: https://theposterdb.com/api/assets/96794}
-  Blade:
-    template: {name: Collection, collection: 735, poster: https://theposterdb.com/api/assets/36517}
   Blade Runner:
     template: {name: Collection, collection: 422837, poster: https://theposterdb.com/api/assets/6081}
   The Blues Brothers:
     template: {name: Collection, collection: 112636, poster: https://theposterdb.com/api/assets/12496}
-  The Boondock Saints:
-    template: {name: Collection, collection: 87186, poster: https://theposterdb.com/api/assets/80255}
   Jason Bourne:
     template: {name: Collection, collection: 31562, poster: https://theposterdb.com/api/assets/19519}
   Captain America:
     template: {name: Collection, collection: 131295, poster: https://theposterdb.com/api/assets/4814}
   Captain Marvel:
     template: {name: Collection, collection: 623911, poster: https://theposterdb.com/api/assets/63348}
-  Cars:
-    template: {name: Collection, collection: 87118, poster: https://theposterdb.com/api/assets/132}
   Cheech & Chong:
     template: {name: Collection}
     trakt_list_details: https://trakt.tv/users/siskourso/lists/cheech-chong
     url_poster: https://theposterdb.com/api/assets/106306
-  The Chronicles of Narnia:
-    template: {name: Collection, collection: 420, poster: https://theposterdb.com/api/assets/86941}
-  The Chronicles of Riddick:
-    template: {name: Collection, collection: 2794, poster: https://theposterdb.com/api/assets/22252}
-  City Slickers:
-    template: {name: Collection, collection: 150156, poster: https://theposterdb.com/api/assets/17434}
-  Clerks:
-    template: {name: Collection, collection: 182813, poster: https://theposterdb.com/api/assets/35320}
   Cloverfield:
     template: {name: Collection}
     trakt_list_details:: https://trakt.tv/users/siskourso/lists/cloverfield-collection
     url_poster: https://theposterdb.com/api/assets/80058
     summary: Cloverfield is an American science fiction anthology film series and media franchise created and produced by J. J. Abrams consisting of three films, viral marketing websites linking the films together, and a tie-in manga to the first film titled Cloverfield/Kishin (2008), all set in a shared fictional universe referred to as the "Cloververse". The franchise as a whole deals with creatures from other dimensions attacking Earth throughout various decades, all as a repercussion of an experiment by an astronaut team aboard the Cloverfield Station in outer-space. Each film depicts the reality-altering effects of their study, which was meant to find a new energy source replacing the planet's depleted resources, only to open portals for assault from various beasts from deep space.
-  Creed:
-    template: {name: Collection, collection: 553717, poster: https://theposterdb.com/api/assets/84016}
   The Crow:
     template: {name: Collection, collection: 9436, poster: https://theposterdb.com/api/assets/111879}
   Cube:
@@ -153,31 +182,16 @@ collections:
     template: {name: Collection, collection: 1570, poster: https://theposterdb.com/api/assets/15956}
   Dirty Harry:
     template: {name: Collection, collection: 10456, poster: https://theposterdb.com/api/assets/850}
-  Divergent:
-    template: {name: Collection, collection: 283579, poster: https://theposterdb.com/api/assets/53782}
   Dune:
     template: {name: Collection, collection: 726871, poster: https://theposterdb.com/api/assets/197348}
   Dungeons & Dragons:
     template: {name: Collection, collection: 106498, poster: https://theposterdb.com/api/assets/73505}
   El Mariachi:
     template: {name: Collection, collection: 9649, poster: https://theposterdb.com/api/assets/214459}
-  Escape From ...:
-    template: {name: Collection, collection: 115838, poster: https://theposterdb.com/api/assets/96947}
-    name_mapping: Escape From
-  Fantastic Beasts:
-    template: {name: Collection, collection: 435259, poster: https://theposterdb.com/api/assets/27620}
   Fantastic Four:
     template: {name: Collection, collection: 9744, poster: https://theposterdb.com/api/assets/107627}
-  Father of the Bride (Steve Martin):
-    template: {name: Collection, collection: 96871, poster: https://theposterdb.com/api/assets/129917}
-  Fifty Shades:
-    template: {name: Collection, collection: 344830, poster: https://theposterdb.com/api/assets/38650}
-  Final Destination:
-    template: {name: Collection, collection: 8864, poster: https://theposterdb.com/api/assets/66195}
   Fletch:
     template: {name: Collection, collection: 104833, poster: https://www.themoviedb.org/t/p/original/aKsCNCiUtMdBRyL7yJTtyTU7uOg.jpg}
-  Friday:
-    template: {name: Collection, collection: 43563, poster: https://theposterdb.com/api/assets/28461}
   Friday the 13th:
     template: {name: Collection, collection: 9735, movie: "6466, 222724", poster: https://theposterdb.com/api/assets/169888}
   From Dusk Till Dawn:
@@ -196,23 +210,15 @@ collections:
     template: {name: Collection, collection: 126209, poster: https://theposterdb.com/api/assets/187135}
   "Halloween: Alternate Reality":
     template: {name: Collection, movie: "424139, 610253, 616820", poster: https://theposterdb.com/api/assets/182377}
-  The Hangover:
-    template: {name: Collection, collection: 86119, poster: https://theposterdb.com/api/assets/40149}
   Hannibal Lecter:
     template: {name: Collection, collection: 9743, movie: 11454, poster: https://theposterdb.com/api/assets/23078}
-  Harold & Kumar:
-    template: {name: Collection, collection: 30663, poster: https://theposterdb.com/api/assets/41763}
   ... Has Fallen:
     template: {name: Collection, collection: 386534, poster: https://theposterdb.com/api/assets/130396}
     name_mapping: Has Fallen
-  Heavy Metal:
-    template: {name: Collection, collection: 141086, poster: https://www.themoviedb.org/t/p/original/tPzcbhK32OqnYmOccqbRw0eje7a.jpg}
   Hellraiser:
     template: {name: Collection, collection: 8917, poster: https://theposterdb.com/api/assets/27498}
   Highlander:
     template: {name: Collection, collection: 8050, poster: https://theposterdb.com/api/assets/63711}
-  The Hitman's Bodyguard:
-    template: {name: Collection, collection: 608101, poster: https://theposterdb.com/api/assets/165936}
   The Hobbit:
     template: {name: Collection, collection: 121938, poster: https://theposterdb.com/api/assets/12309}
   Hot Shots!:
@@ -223,19 +229,10 @@ collections:
     template: {name: Collection, collection: 105625, poster: https://theposterdb.com/api/assets/109245}
   The Hunger Games:
     template: {name: Collection, collection: 131635, poster: https://theposterdb.com/api/assets/18154}
-  I Know What You Did Last Summer:
-    template: {name: Collection, collection: 3601, poster: https://theposterdb.com/api/assets/215096}
-  I Spit on Your Grave:
-    template: {name: Collection, collection: 219691, poster: https://theposterdb.com/api/assets/8280}
-  The Incredibles:
-    template: {name: Collection, collection: 468222, poster: https://theposterdb.com/api/assets/28557}
   Independence Day:
     template: {name: Collection, collection: 304378, poster: https://theposterdb.com/api/assets/68632}
   Indiana Jones:
     template: {name: Collection, collection: 84, poster: https://theposterdb.com/api/assets/12872}
-  Ip Man:
-    template: {name: Collection, collection: 70068, movie: "658009, 643413, 450001, 751391, 44249, 182127, 44865", poster: https://theposterdb.com/api/assets/52647}
-    collection_order: alpha
   Iron Man:
     template: {name: Collection, collection: 131292, poster: https://theposterdb.com/api/assets/4817}
   It:
@@ -244,26 +241,12 @@ collections:
     template: {name: Collection, collection: 192492, movie: "4614, 137094", poster: https://theposterdb.com/api/assets/150531}
   Jaws:
     template: {name: Collection, collection: 2366, poster: https://theposterdb.com/api/assets/8288}
-  Jay and Silent Bob:
-    template: {name: Collection, collection: 726870, poster: https://theposterdb.com/api/assets/97420}
   John Wick:
     template: {name: Collection, collection: 404609, poster: https://theposterdb.com/api/assets/13285}
   Jumanji:
     template: {name: Collection, collection: 495527, poster: https://theposterdb.com/api/assets/54112}
-  Justice League (Animated):
-    template: {name: Collection, collection: 256287, poster: https://theposterdb.com/api/assets/70784}
-  The Karate Kid:
-    template: {name: Collection, collection: 8580, movie: 38575, poster: https://theposterdb.com/api/assets/2563}
-  Kick-Ass:
-    template: {name: Collection, collection: 179892, poster: https://theposterdb.com/api/assets/9885}
-  Kill Bill:
-    template: {name: Collection, collection: 2883, poster: https://theposterdb.com/api/assets/40153}
   Kingsman:
     template: {name: Collection, collection: 391860, poster: https://theposterdb.com/api/assets/6651}
-  Kung Fu Panda:
-    template: {name: Collection, collection: 77816, poster: https://theposterdb.com/api/assets/112270}
-  The Lego Movie:
-    template: {name: Collection, collection: 325470, poster: https://theposterdb.com/api/assets/46059}
   Lethal Weapon:
     template: {name: Collection, collection: 945, poster: https://theposterdb.com/api/assets/82654}
   Living Dead:
@@ -272,10 +255,6 @@ collections:
     template: {name: Collection, collection: 119, poster: https://theposterdb.com/api/assets/11554}
   The Lord of the Rings (Animated):
     template: {name: Collection, collection: 141290, poster: https://theposterdb.com/api/assets/201917}
-  Mad Max:
-    template: {name: Collection, collection: 8945, poster: https://theposterdb.com/api/assets/134425}
-  Major League:
-    template: {name: Collection, collection: 97771, poster: https://theposterdb.com/api/assets/26596}
   Marvel One-Shot:
     template: {name: Collection, movie: "211387, 76122, 119569, 253980, 505945, 758025, 413279, 441829, 76535", poster: https://theposterdb.com/api/assets/153891}
   The Man with No Name:
@@ -287,8 +266,6 @@ collections:
     template: {name: Collection, collection: 209131, poster: https://theposterdb.com/api/assets/76476}
   The Matrix:
     template: {name: Collection, collection: 2344, poster: https://theposterdb.com/api/assets/65273}
-  Meet the Parents:
-    template: {name: Collection, collection: 51509, poster: https://theposterdb.com/api/assets/35566}
   Men In Black:
     template: {name: Collection, collection: 86055, poster: https://theposterdb.com/api/assets/103970}
   "Mission: Impossible":
@@ -521,7 +498,7 @@ collections:
     url_poster: https://theposterdb.com/api/assets/10047
     summary: The Academy Award for Best Picture is one of the Academy Awards presented annually by the Academy of Motion Picture Arts and Sciences (AMPAS) since the awards debuted in 1929. This award goes to the producers of the film and is the only category in which every member of the Oscars is eligible to submit a nomination and vote on the final ballot.[1] The Best Picture category is usually the final award of the night and is widely considered as the most prestigious honor of the ceremony.
     collection_order: custom
-    sort_title: 0001_<<collection_name>>
+    sort_title: +_<<collection_name>>
 
 metadata:
 
