@@ -20,9 +20,28 @@ playlists:
         episode_air_date.not: 14       # this field only accepts days so weeks cannot be added directly
         episode_unplayed: false
         episode_last_played.not: 21    # this field only accepts days so weeks cannot be added directly
-        any:
-          - episode_air_date.after: 01/01/2019     # Because I personally didn't enjoy the Coma Seasons
-            episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
+        #any:
+          #- episode_air_date.after: 01/01/2019     # Because I personally didn't enjoy the Coma Seasons
+          #  episode_air_date.before: 01/01/2016    # Because I personally didn't enjoy the Coma Seasons
+  
+    Animated SleepyTime:
+    sync_mode: sync
+    libraries: TV
+    plex_search:
+      sort_by:  random
+      type: episode
+      limit: 100
+      any:
+        title.is: Archer (2009)
+        title: Rick And Morty
+        title: American Dad
+        title: Family Guy
+        all:
+          episode_air_date.not: 14       # this field only accepts days so weeks cannot be added directly
+          episode_unplayed: false
+          episode_last_played.not: 21    # this field only accepts days so weeks cannot be added directly
+  
+  
   Arrowverse (Timeline Order):
     template: {name: tlists, list: https://trakt.tv/users/donxy/lists/arrowverse}
   DC Animated Universe (Timeline Order): 
@@ -35,7 +54,7 @@ playlists:
   Star Trek (Timeline Order): 
     template: {name: tlists, list: https://trakt.tv/users/goodevilgenius/lists/star-trek-chronology}
   Star Wars (Timeline Order): 
-    template: {name: tlists, list: https://trakt.tv/users/ruben_vw_/lists/star-wars-canon-timeline}
+    template: {name: tlists, list: https://trakt.tv/lists/9410223}
   Star Wars The Clone Wars (Timeline Order): 
     template: {name: tlists, list: https://trakt.tv/users/tomfin46/lists/star-wars-the-clone-wars-chronological-episode-order}
   X-Men (Timeline Order): 
