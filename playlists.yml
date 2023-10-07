@@ -77,9 +77,9 @@ playlists:
   Fast & Furious Movies Chronological Order:
     template: {name: tlists, list: "https://trakt.tv/users/mausk/lists/fast-furious?sort=rank,desc", poster: https://imgur.com/xD4UaZr}
   Harry Potter Movies Chronological Order:
-    template: {name: tlists, list: "https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc  ", poster: https://imgur.com/U9hMb2s}
+    template: {name: tlists, list: "https://trakt.tv/users/goldveia/lists/harry-potter?sort=rank,asc", poster: https://imgur.com/U9hMb2s}
   Lord of the Rings Movies Chronological Order:
-    template: {name: tlists, list: "https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc", poster: https://imgur.com/kBTAKrD
+    template: {name: tlists, list: "https://trakt.tv/users/spite84/lists/lord-of-the-rings?sort=rank,asc", poster: https://imgur.com/kBTAKrD}
   Jurassic Park Movies Chronological Order:
     template: {name: tlists, list: "https://trakt.tv/users/iamgabriel/lists/jurassic?sort=rank,asc", poster: https://theposterdb.com/api/assets/158968}
   The Hunger Games Movies Chronological Order:
