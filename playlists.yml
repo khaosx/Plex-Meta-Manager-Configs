@@ -9,7 +9,6 @@ templates:
     libraries: Movies,TV
     sync_to_users: all
     sync_mode: sync
-    libraries: Movies, TV
 
 playlists:
 
